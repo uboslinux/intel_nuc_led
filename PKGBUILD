@@ -39,7 +39,7 @@ package() {
 
     find "${pkgdir}" -name '*.ko' -exec gzip -n {} +
 
-    # Build and package userspace
-    cd ${startdir}/contrib/nuc_wmi
-    python setup.py install --root ${pkgdir}
+    # Build and package userspace -- currently not working
+    # cd ${startdir}/contrib/nuc_wmi
+    # python setup.py install --root ${pkgdir}
 }
