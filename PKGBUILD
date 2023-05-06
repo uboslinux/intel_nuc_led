@@ -3,12 +3,12 @@ url="https://github.com/uboslinux/intel_nuc_led"
 maintainer=${developer}
 pkgname=$(basename $(pwd))
 pkgver=0.11
-pkgrel=4
+pkgrel=5
 pkgdesc='Intel NUC LED Control for Linux'
 arch=('x86_64')
 license=('GPL3')
-_kernelver=6.2.10.arch1-1
-_kernelpath=6.2.10-arch1-1
+_kernelver=6.3.1.arch1-1
+_kernelpath=6.3.1-arch1-1
 # Note: not the same: hyphen vs dot
 depends=("linux=${_kernelver}")
 makedepends=(
