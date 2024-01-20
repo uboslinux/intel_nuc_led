@@ -7,8 +7,8 @@ pkgrel=7
 pkgdesc='Intel NUC LED Control for Linux'
 arch=('x86_64')
 license=('GPL3')
-_kernelver=6.5.5.arch1-1
-_kernelpath=6.5.5-arch1-1
+_kernelver=6.7.arch3-1
+_kernelpath=6.7-arch3-1
 # Note: not the same: hyphen vs dot
 depends=("linux=${_kernelver}")
 makedepends=(
